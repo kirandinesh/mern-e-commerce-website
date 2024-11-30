@@ -2,7 +2,10 @@ import React from "react";
 import "./Sidebar.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { logoutUser } from "../../../features/authSlice";
+import {
+  logoutUser,
+  resetTokenAndCredentials,
+} from "../../../features/authSlice";
 
 function AdminSidebar() {
   const navigate = useNavigate();
@@ -10,7 +13,9 @@ function AdminSidebar() {
   const dispatch = useDispatch();
 
   function handleLogout() {
-    dispatch(logoutUser());
+    dispatch(resetTokenAndCredentials());
+    sessionStorage.clear();
+    // dispatch(logoutUser());
     navigate("/auth/login");
   }
 

@@ -7,7 +7,7 @@ import userIcon from "../../assets/icons/users-icon.svg";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { LogOut } from "lucide-react";
 import { useDispatch, useSelector } from "react-redux";
-import { logoutUser } from "../../features/authSlice";
+import { logoutUser, resetTokenAndCredentials } from "../../features/authSlice";
 import CartSideBar from "./CartSideBar";
 import { fetchCartItems } from "../../features/shop/cart-slice";
 
@@ -30,7 +30,9 @@ function Shopheader() {
   const toggleCart = () => setIsCartOpen(!isCartOpen);
 
   const handleLogout = () => {
-    dispatch(logoutUser());
+    dispatch(resetTokenAndCredentials());
+    sessionStorage.clear();
+    // dispatch(logoutUser());
     navigate("/auth/login");
   };
 
