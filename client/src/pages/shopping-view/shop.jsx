@@ -12,7 +12,7 @@ import {
 import { filterOptions } from "../../config";
 import Footer from "../../components/shopping-view/Footer";
 import { ChevronRight } from "lucide-react";
-
+import shopBannerImg from "../../assets/home-page/shop_banner.png";
 function createSearchParamsHelper(filterParams, sort) {
   const queryParams = [];
 
@@ -91,6 +91,7 @@ function Shop() {
     <div className="shopping-main-container">
       <div className="pageHeader">
         <div className="pageImageHolder">
+          <img src={shopBannerImg} alt="" />
           <div className="pageImageHolder-title">
             <div className="to-linkContainer">
               <button onClick={() => navigate("/shop/home")}>Home</button>

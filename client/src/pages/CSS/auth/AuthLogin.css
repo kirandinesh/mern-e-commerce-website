@@ -54,7 +54,7 @@
   height: 32px;
   border-bottom: 1px solid #e8ecef;
   font-size: 1rem;
-  caret-color: transparent;
+  /* caret-color: transparent; */
 }
 
 .form-group input::placeholder {
