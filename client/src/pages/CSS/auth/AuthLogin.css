@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.auth-login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 456px;
+  height: 520px;
+  margin-top: 7rem;
+  margin-left: 3rem;
+  background-color: #fefefe;
+}
+
+.auth-login-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-title h4 {
+  color: #141718;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 48px;
+  gap: 10px;
+}
+
+.form-group input {
+  border: none;
+  height: 32px;
+  border-bottom: 1px solid #e8ecef;
+  font-size: 1rem;
+  caret-color: transparent;
+}
+
+.form-group input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 2px;
+  color: #6c7275;
+  padding: 0px 0px 10px 0px;
+}
+
+.form-group input:focus::placeholder {
+  color: #38cb89;
+}
+
+.form-group input:focus {
+  border-bottom: 1px solid #38cb89;
+}
+
+.signInButton {
+  width: 456px;
+  height: 48px;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-login-container .form-title span {
+  color: #38cb89;
+}
+
+.auth-login-container .form-title p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c7275;
+}
+
+.auth-login-container form .checkAgree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-login-container .checkAgree .checkAgree-container p {
+  color: #6c7275;
+}
+
+.auth-login-container .checkAgree .checkAgree-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.checkAgree .forget p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  accent-color: red;
+  cursor: pointer;
+}

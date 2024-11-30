@@ -1,0 +1,49 @@
+.admin-order-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-order-history-table th,
+.admin-order-history-table td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.admin-order-table-header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px 0px rgb(139, 139, 139);
+}
+
+.admin-order-history-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.admin-order-view-details {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.orderStatus {
+}
+.orderStatus-badge {
+  font-family: "Poppins";
+  font-size: 1rem;
+  padding: 1px 4px;
+  color: white;
+  border-radius: 10px;
+  height: 25px;
+}

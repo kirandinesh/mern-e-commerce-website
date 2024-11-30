@@ -1,0 +1,19 @@
+.shop-layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+/* Header */
+.shop-header {
+}
+
+/* Main content area */
+.shop-main {
+  flex: 1;
+}
+
+/* Footer */
+.shop-footer {
+  text-align: center;
+}

@@ -1,0 +1,125 @@
+.dashboard-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.dashboard-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: auto;
+}
+
+.dashboard-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 262px;
+  height: 161px;
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 6px 6px 54px 0px #0000000d;
+}
+
+.dashboard-card-content .card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.dashboard-card-content .card-details-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dashboard-card-content .card-details-left span {
+  color: #202224;
+  font-weight: 500;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  line-height: 21.82px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.dashboard-card-content .card-details-left h3 {
+  color: #202224;
+  font-family: Nunito Sans;
+  font-size: 28px;
+  line-height: 38.19px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-weight: 800;
+}
+
+.dashboard-card-content .card-details-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.dashboard-card-content .card-details-right img {
+  width: 32px;
+  height: 24px;
+  z-index: 1;
+}
+
+.dashboard-card-container .card-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dashboard-card-container .card-actions span {
+  font-size: 14px;
+  color: #007bff;
+}
+.chart-container {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+.line-chart-container {
+  height: 400px;
+}
+
+.deal-main-container {
+  padding: 10px;
+}
+.deal-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+.deal-container thead {
+  background-color: #f1f4f9;
+  height: 48px;
+  border-radius: 10%;
+}
+.deal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 0px;
+}
+.deal-header select {
+  height: 28px;
+  width: 104px;
+  border: 0.6px solid #d5d5d5;
+}
+.deal-header option {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2b303466;
+}

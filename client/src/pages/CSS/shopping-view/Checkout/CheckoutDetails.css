@@ -1,0 +1,333 @@
+.CheckoutDetails-main-container {
+  display: flex;
+  padding: 80px 0px;
+  gap: 64px;
+}
+
+.CheckoutDetails-lett-container {
+  width: 643px;
+}
+.CheckoutDetails-right-container {
+  display: flex;
+  flex-direction: column;
+  width: 413px;
+}
+.CheckoutDetails-lett-container form {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.CheckoutDetails-form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.CheckoutDetails-form-group label {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #6c7275;
+}
+.CheckoutDetails-form-group input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 16px;
+  border-radius: 6px;
+  border: 1px solid #cbcbcb;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+/* section contact details */ /* section shipping address */
+.CheckoutDetails-payment-method,
+.CheckoutDetails-shipping-address .checkForm,
+.CheckoutDetails-contact-details {
+  display: flex;
+  padding: 40px 24px;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+  border: 1px solid #6c7275;
+  border-radius: 4px;
+}
+.CheckoutDetails-payment-method .CheckoutDetails-payment-flex,
+.CheckoutDetails-shipping-address .CheckoutDetails-group-flex,
+.CheckoutDetails-contact-details .name-details {
+  display: flex;
+  justify-content: space-between;
+}
+.CheckoutDetails-contact-details .other-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+}
+.CheckoutDetails-payment-method .CheckoutDetails-payment-flex input,
+.CheckoutDetails-shipping-address .checkForm .CheckoutDetails-group-flex input,
+.CheckoutDetails-contact-details .name-details input {
+  width: 285.5px;
+}
+.CheckoutDetails-payment-method h2,
+.CheckoutDetails-shipping-address .checkForm h2,
+.CheckoutDetails-contact-details h2 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+/* section payment method */
+.CheckoutDetails-payment-method .payment-method-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.payment-method-container .payment-method {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #6c7275;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 13px 16px;
+  cursor: pointer;
+}
+.payment-method .payment-method-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.payment-method .payment-method-input label {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #141718;
+}
+.payment-method .payment-method-input input {
+  width: 18px;
+  height: 18px;
+}
+
+/* CheckoutDetails-lett-container */
+
+.CheckoutDetails-lett-container button {
+  height: 52px;
+  background-color: #141718;
+  color: white;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+}
+.CheckoutDetails-cart-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #6c7275;
+  padding: 16px 24px;
+  border-radius: 6px;
+}
+.CheckoutDetails-cart {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  flex-direction: column;
+  overflow: auto;
+}
+
+/* input */
+.CheckoutDetails-cart-summary .coupon-container {
+  display: flex;
+  gap: 8px;
+}
+.CheckoutDetails-cart-summary .coupon-container input {
+  height: 52px;
+  width: 258px;
+  padding: 0px 16px;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: 1px solid #cbcbcb;
+}
+.CheckoutDetails-cart-summary .coupon-container button {
+  height: 52px;
+  width: 95px;
+  border-radius: 8px;
+  background-color: #141718;
+  color: white;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+}
+/* CheckoutDetails-price-details */
+.CheckoutDetails-price-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.CheckoutDetails-price-details .total-details,
+.CheckoutDetails-price-details .subtotal-details,
+.CheckoutDetails-price-details .shipping-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CheckoutDetails-price-details .subtotal-details h4,
+.CheckoutDetails-price-details .shipping-details h4 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.CheckoutDetails-price-details .subtotal-details span,
+.CheckoutDetails-price-details .shipping-details .checkForm span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.CheckoutDetails-price-details .shipping-details,
+.CheckoutDetails-price-details .subtotal-details,
+.CheckoutDetails-price-details .total-details {
+  padding: 13px 0px;
+  border-bottom: 1px solid #e8ecef;
+}
+
+.CheckoutDetails-price-details .total-details h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.CheckoutDetails-price-details .total-details span {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.coupon-details {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e8ecef;
+  height: 52px;
+}
+.coupons-details-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.coupons-details-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coupons-details-right span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #38cb89;
+}
+
+.coupons-details-right button {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #38cb89;
+  cursor: pointer;
+}
+
+.coupons-details-left span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.optional-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 26px;
+}
+.optional-check span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #6c7275;
+}
+
+.optional-check input {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1.5px solid #6c7275;
+}
+.checkoutButton-submit.disabled {
+  background-color: red;
+}

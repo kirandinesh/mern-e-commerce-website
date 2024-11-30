@@ -1,0 +1,104 @@
+/* General address card container */
+.address-card {
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.address-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Title section */
+.address-card-header {
+  border-bottom: 2px solid #eaeaea;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+}
+
+.address-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Body section (address details) */
+.address-card-body {
+  margin-bottom: 20px;
+}
+
+.address-item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px 0;
+  border-bottom: 1px solid #eaeaea;
+  gap: 10px;
+}
+
+.address-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.address-value {
+  color: #444;
+  text-align: right;
+  word-wrap: break-word;
+}
+
+/* Notes section */
+.address-item:last-child {
+  border-bottom: none;
+}
+
+.address-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.address-card-footer .edit-button {
+  padding: 10px 20px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.address-card-footer .edit-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.address-card-footer .edit-button:active {
+  transform: scale(1);
+}
+.address-card-footer .delete-button {
+  padding: 10px 20px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.address-card-footer .delete-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.address-card-footer .delete-button:active {
+  transform: scale(1);
+}

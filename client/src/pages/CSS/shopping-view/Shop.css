@@ -1,0 +1,71 @@
+.pageHeader {
+  height: 392px;
+  padding: 0 10.5vw;
+  margin-top: 5px;
+}
+.pageImageHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://s3-alpha-sig.figma.com/img/0448/da12/7ecfa3700fbcca8f347e6e197dcfb8d1?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MMnBg9ZoLywDq03-DKh2qkB3h7A6hDIkjuJzUdP4Gwr0WW5wk-9oIedBcTgeMhRbsLhhsch4AWHQ6coKhM8otllHDssYbTyyQ73X3XHFM4PInZe83CAtl50-4Zy3Syfi9KKoWou9GNnfrUjD1Ve5Mao4W2HcOWxEvrcAz3rOIMq2ukWdv1c9vSm5QjcIgvvrZmmkAMBF7n4IWb4XXeZs9LAFSHXz~uzl7vHipRL6NxpHQBP5AqRvqCAq85ysnVxPonaHMsPDD2pG8ixArf423b4GBt2K6oIYXm4aruJlxDT2GP8Q71bsWKxT~hCMkACMghXHZis8B~5CLRrAHYYVSA__");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shop-product-grid {
+  margin-top: 40px;
+  padding: 0 10.5vw;
+}
+.product-grid {
+  width: 100%;
+  height: 100%;
+}
+
+.shopping-main-container .pageBottom {
+  margin-top: 100px;
+}
+.pageImageHolder-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.pageImageHolder-title .to-linkContainer {
+  display: flex;
+  gap: 16px;
+}
+.to-linkContainer button {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #605f5f;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.pageImageHolder-title h1 {
+  font-family: "Poppins";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.pageImageHolder-title p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121212;
+}

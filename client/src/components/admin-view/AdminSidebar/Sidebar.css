@@ -1,0 +1,118 @@
+.sidebar-container {
+  width: 240px;
+  background-color: white;
+  height: 100vh;
+  box-shadow: 2px 0px 0px 0.5px wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.sidebar-brand h4 {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.sidebar-upper-container ul,
+.sidebar-lower-container ul {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  list-style: none;
+}
+
+.sidebar-upper-container ul {
+  margin-top: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar-lower-container ul {
+  margin-bottom: 100px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.sidebar-upper-container ul li,
+.sidebar-lower-container ul li {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.sidebar-lower-container ul li .sidebar-button,
+.sidebar-upper-container ul li .sidebar-button {
+  color: black;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sidebar-upper-container ul li .sidebar-button.active,
+.sidebar-lower-container ul li .sidebar-button.active {
+  background-color: #141718;
+  color: white;
+}
+
+.sidebar-upper-container ul li .sidebar-button.active::before,
+.sidebar-lower-container ul li .sidebar-button.active::before {
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 50px;
+  background-color: #141718;
+  left: -5px;
+  border-radius: 4px;
+}
+
+.sidebar-lower-container ul li .icon,
+.sidebar-upper-container ul li .icon {
+  flex: 30%;
+}
+
+.sidebar-lower-container ul li .title,
+.sidebar-upper-container ul li .title {
+  flex: 70%;
+}
+.sidebar-Logoutbutton {
+  color: white;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  text-decoration: none;
+  background-color: red;
+}
+.sidebar-Logoutbutton::before {
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 50px;
+  background-color: red;
+  left: -5px;
+  border-radius: 4px;
+}

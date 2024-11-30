@@ -1,0 +1,370 @@
+.admin-add-product-container {
+  height: 100%;
+  width: 100%;
+}
+
+.admin-add-product-title h2 {
+  font-size: 2rem;
+  font-family: "Nunito Sans";
+  letter-spacing: -0.11px;
+  font-weight: 700;
+  color: #202224;
+}
+
+.add-product {
+  display: flex;
+  padding: 20px;
+  height: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.add-product-left {
+  width: 50%;
+  display: grid;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.add-product-left .label-container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.add-product-left .label-container p {
+  width: 100px;
+  border: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+.plusIcon {
+  font-size: 28px;
+}
+
+.image-upload-btn {
+  width: 40%;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.image-placeholder img {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-placeholder {
+  width: 262px;
+  height: 349px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.product-image-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-remove-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.add-product-right {
+  flex-grow: 1;
+  padding-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 50px;
+}
+.addproductForm-button-container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+.add-product-btn {
+  background-color: black;
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 60px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 40.19px;
+  text-align: center;
+  text-underline-position: from-font;
+  box-shadow: 0px 2.01px 6.03px 0px #0000004d;
+
+  box-shadow: 0px 8.04px 16.07px 6.03px #00000026;
+}
+
+.cancel-product-btn {
+  background-color: white;
+  color: black;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  width: 150px;
+  height: 60px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 40.19px;
+  text-align: center;
+  text-underline-position: from-font;
+  box-shadow: 0px 2.01px 6.03px 0px #0000004d;
+
+  box-shadow: 0px 8.04px 16.07px 6.03px #00000026;
+}
+
+.product-price-container {
+  display: flex;
+  flex-direction: row;
+  height: 34px;
+  width: 508px;
+}
+
+.product-price-container .product-priceAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-price-container .product-priceAdd input[name="price"] {
+  width: 110px;
+  height: 100%;
+  margin-left: 10px;
+  font-size: 28px;
+  border: none;
+}
+
+.product-price-container .product-priceAdd input[name="mrp"] {
+  width: 110px;
+  height: 100%;
+  margin-left: 10px;
+  font-size: 28px;
+  border: none;
+}
+
+.product-price-container .product-priceAdd input[name="totalStock"] {
+  width: 160px;
+  height: 100%;
+  margin-left: 10px;
+  font-size: 28px;
+  border: none;
+}
+
+.product-price-container .product-priceAdd input::placeholder {
+  font-size: 20px;
+  color: black;
+  transform: translateY(-5px);
+}
+
+.add-product textarea {
+  border: none;
+}
+
+.product-title p,
+.product-title input {
+  width: 400px;
+  color: black;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: none;
+}
+
+.product-title {
+  display: flex;
+  align-items: flex-end;
+}
+
+.product-title input::placeholder {
+  font-size: 2.5rem;
+  color: black;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.product-desc textarea::placeholder {
+  font-size: 1rem;
+  font-family: " Inter";
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.product-desc textarea {
+  font-size: 1rem;
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  gap: 8px;
+}
+
+.product-details-container select {
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  font-size: 1rem;
+  color: #6c7275;
+  font-family: "Inter";
+  font-weight: 600;
+  border: none;
+  margin-top: 15px;
+}
+
+.product-additional-info-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.additional-info-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6c7275;
+}
+.additional-info-container p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.additional-info-container .arrowIcon {
+  position: absolute;
+  right: -10px;
+  top: -5px;
+  transition: transform 0.3s ease; /* Ensure smooth rotation */
+}
+
+.additional-info-container.active .arrowIcon {
+  transform: rotate(90deg);
+}
+.additional-info-fields textarea {
+  margin-top: 10px;
+}
+.additional-info-fields input {
+  margin-top: 10px;
+}
+.product-details-container input {
+  font-size: 1rem;
+  color: #6c7275;
+  font-family: "Inter";
+  font-weight: 600;
+  border: none;
+}
+
+.product-details-container input[name="additionalInfo"] {
+  font-family: "Inter";
+  font-size: 14px;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #141718;
+}
+
+.product-details-container textarea {
+  width: 100%;
+  color: #141718;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.product-color-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-color-container p {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #6c7275;
+  font-family: "Inter";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.color-list {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.color-item {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.add-product-btn.disabled {
+  background-color: rgb(148, 148, 148);
+  cursor: not-allowed;
+}

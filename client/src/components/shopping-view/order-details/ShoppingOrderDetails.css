@@ -1,0 +1,118 @@
+.shopOrderDetails-container {
+  width: 600px;
+}
+.shopOrderDetails-grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.shopOrderDetails-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shopOrderDetails-grid label,
+.shopOrderDetails-grid p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.shopOrderDetails-section {
+  margin-top: 16px;
+  padding-top: 20px;
+  border-top: 2px solid #5e5d5d;
+}
+
+.shopOrderDetails-product-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shopOrderDetails-product-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.shopOrderDetails-Shipping-Info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.shopOrderDetails-Shipping-Info span {
+  font-size: 1rem;
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.shopOrderDetails-Productsection {
+  width: 100%;
+  height: 100%;
+  margin-top: 16px;
+  padding-top: 20px;
+  border-top: 2px solid #5e5d5d;
+}
+
+.shopOrderDetails-Productsection .shopOrderDetails-grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+.shopOrderDetails-Productsection .shopOrderDetails-grid ul {
+  width: 100%;
+}
+.shopOrderDetails-Productsection .shopOrderDetails-grid ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopOrderDetails-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.shopOrderDetails-table th,
+.shopOrderDetails-table td {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.shopOrderDetails-table th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+  color: #333;
+}
+
+.shopOrderDetails-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.shopOrderDetails-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.shopOrderDetails-table td {
+  color: #555;
+}
+
+.shopOrderDetails-table tbody tr:last-child td {
+  border-bottom: none;
+}

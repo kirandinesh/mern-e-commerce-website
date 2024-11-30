@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: #f9f9f9;
+  --secondary-bg: #141718;
+  --text-color: #202224;
+  --button-bg: white;
+  --button-shadow: 0px 8.04px 16.07px 6.03px rgba(0, 0, 0, 0.15);
+}
+
+.adminProduct-container {
+  width: 100%;
+  background-color: var(--primary-bg);
+}
+
+.product-title h2 {
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.product-banner {
+  width: 100%;
+  height: 260px;
+  border-radius: 14px;
+  background-color: var(--secondary-bg);
+}
+
+/* Add Product Button */
+.admin-addProduct-container {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.admin-addProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: var(--button-bg);
+  border: none;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  box-shadow: var(--button-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.admin-addProduct:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Cards Grid */
+.adminProduct-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 0;
+}

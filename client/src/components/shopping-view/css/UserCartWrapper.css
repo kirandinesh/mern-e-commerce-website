@@ -1,0 +1,144 @@
+.cart-item-container {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  background-color: #fff;
+  flex-shrink: 0;
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Placeholder Image */
+.cart-item-container .image-placeholder {
+  width: 20%;
+  height: 96px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #555;
+  border-radius: 4px;
+}
+.cart-item-container .image-placeholder img {
+  object-fit: contain;
+}
+/* Cart Item Details Section */
+.cart-item-container .cart-item-details {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 12px;
+  gap: 10px;
+  background-color: white;
+}
+
+/* Cart Details */
+.cart-item-details .cart-details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.cart-item-details .cart-details .title {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #141718;
+}
+
+.cart-item-details .cart-details .color {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #6c7275;
+}
+
+/* Quantity Selector */
+.cart-item-details .quantity-selector {
+  width: 80px;
+  height: 32px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.quantity-selector .minusButton,
+.quantity-selector .plusButton {
+  width: 32px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.2s, transform 0.2s ease-in-out;
+}
+
+.quantity-selector .minusButton {
+  background-color: white;
+  color: black;
+}
+
+.quantity-selector .plusButton {
+  background-color: white;
+  color: black;
+}
+
+.quantity-selector .minusButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.quantity-selector .minusButton:hover,
+.quantity-selector .plusButton:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+.quantity-selector h4 {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* Cart Control  */
+.cart-item-container .card-control {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.card-control .price {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: right;
+  color: #121212;
+}
+
+.card-control svg {
+  cursor: pointer;
+  color: #6c7275;
+  transition: color 0.3s;
+}
+
+.card-control svg:hover {
+  color: #141718;
+}

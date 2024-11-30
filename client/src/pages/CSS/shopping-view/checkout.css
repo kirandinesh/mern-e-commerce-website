@@ -1,0 +1,83 @@
+.shop-checkout-main-container {
+  padding: 80px 160px;
+}
+.shop-checkout-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+}
+.shop-checkout-header h1 {
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.checkout-stepper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.checkout-stepper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 256px;
+  height: 66px;
+  gap: 17px;
+  border-bottom: 2px solid #141718;
+}
+.checkout-stepper.progressBar {
+  border-bottom: 2px solid #38cb89;
+}
+.checkout-stepper .stepper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #b1b5c3;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+/* //active */
+.checkout-stepper .stepper.active {
+  background-color: #23262f;
+}
+.checkout-stepper .stepper.completed {
+  background-color: #38cb89;
+}
+.stepper:not(.active):not(.completed) {
+  background-color: gray;
+  color: white;
+}
+.checkout-stepper.active {
+  border-bottom: 2px solid #141718;
+}
+/* ///// */
+
+.checkout-stepper .stepper h3 {
+  font-family: " Inter";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.checkout-stepper input[type="checkbox"]:checked {
+  background-color: green;
+}
+
+.checkout-stepper input[type="checkbox"]:focus {
+  outline: 2px solid blue;
+}

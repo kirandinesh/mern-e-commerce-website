@@ -1,0 +1,126 @@
+.product-stock-card {
+  flex-grow: 1;
+}
+.producStock-header {
+  font-family: "Nunito Sans";
+  font-size: 32px;
+  line-height: 43.65px;
+  letter-spacing: -0.11428570002317429px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-weight: 700;
+}
+
+.product-stock-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-stock-table thead {
+  border-bottom: 0.6px solid #d5d5d5;
+}
+
+.product-stock-table th,
+.product-stock-table td {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.product-stock-table th {
+  font-weight: bold;
+}
+
+.product-stock-table tbody tr {
+  background-color: white;
+  cursor: pointer;
+}
+
+.product-stock-table tbody tr:hover {
+  background-color: #faf8f8;
+}
+
+.product-stock-table tbody tr {
+  width: 100%;
+  height: 100px;
+  border-bottom: 0.4px solid #979797;
+}
+.product-stock-table .product-image {
+  height: 60px;
+  width: 60px;
+}
+
+.product-stock-table .product-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.product-stock-table .color-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  gap: 10px;
+}
+
+.product-stock-table .colorsList {
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+  border-radius: 100%;
+}
+.productStock-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.productStock-footer .footerButtons {
+  display: flex;
+  width: 86px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.productStock-footer .footerButtons .pagemove-left,
+.productStock-footer .footerButtons .pagemove-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border: 0.6px solid #d5d5d5;
+}
+.productStock-footer .footerButtons .pagemove-left {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.productStock-footer .footerButtons .pagemove-right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.stock-action-button .footerButtons {
+  display: flex;
+  width: 86px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.stock-action-button .footerButtons .pagemove-left,
+.stock-action-button .footerButtons .pagemove-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border: 0.6px solid #d5d5d5;
+}
+.stock-action-button .footerButtons .pagemove-left {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.stock-action-button .footerButtons .pagemove-right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

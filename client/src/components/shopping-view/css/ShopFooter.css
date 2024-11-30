@@ -1,0 +1,106 @@
+.shop-footer-container {
+  width: 100%;
+  height: 249px;
+  background-color: #141718;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: antiquewhite;
+  padding: 80px 160px 32px 160px;
+}
+
+/* //footer-top */
+.shop-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-footer-top .footer-left {
+  display: flex;
+  gap: 32px;
+}
+.shop-footer-top .footer-left span {
+  color: #6c7275;
+}
+.shop-footer-top .footer-left h3 {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #e8ecef;
+}
+.shop-footer-top .footer-left .footer-logo {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.shop-footer-top .footer-right .footer-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.shop-footer-top .footer-right .footer-list li {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fefefe;
+}
+
+/* //footer-bottom */
+.shop-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #6c7275;
+  padding: 16px 0px;
+}
+.shop-footer-bottom .footer-left {
+  display: flex;
+  gap: 28px;
+}
+.shop-footer-bottom .footer-right {
+  display: flex;
+  gap: 24px;
+}
+.shop-footer-bottom .footer-left .copyright {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #e8ecef;
+}
+.shop-footer-bottom .footer-left .privacy {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fefefe;
+}
+.shop-footer-bottom .footer-left .term {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fefefe;
+}

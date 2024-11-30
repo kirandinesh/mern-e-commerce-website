@@ -1,0 +1,73 @@
+.imageUpload-placeholder {
+  width: 262px;
+  height: 349px;
+  border: 1px dashed grey;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  aspect-ratio: 3 / 4;
+}
+
+.imageUpload-placeholder img {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.image-uploadLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-uploadLabel span {
+  font-size: 10pt;
+  font-weight: 600;
+}
+
+.product-image-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-remove-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #ff5c5c;
+  z-index: 200;
+}
+
+.image-remove-btn:hover {
+  color: red;
+}
+
+.image-upload-status {
+  font-size: 10pt;
+  margin-top: 10px;
+  color: gray;
+  text-align: center;
+}
+
+.skeleton-loading {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.skeleton-container {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  color: white;
+  padding: 0 20px;
+  flex-shrink: 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.header-searchBar {
+  width: 100%;
+  padding: 0 0 0 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header-searchBar input {
+  padding: 5px;
+  width: 388px;
+  height: 38px;
+  padding-left: 35px;
+  border-radius: 19px;
+  background-color: #f5f6fa;
+  border: 1px solid #f5f6fa;
+}
+
+.header-searchBar input::placeholder {
+  font-size: 14px;
+}
+
+.header-searchBar svg {
+  position: absolute;
+  left: 50px;
+  pointer-events: none;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.admin-profile-container {
+  width: 169px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-profile-container .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+}
+
+.admin-profile-container .hero-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-profile-container .hero-details .hero-name {
+  font-size: 14px;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-style: normal;
+  color: #404040;
+}
+
+.admin-profile-container .hero-details .hero-role {
+  font-size: 13px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-style: normal;
+  color: #565656;
+}

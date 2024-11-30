@@ -1,0 +1,116 @@
+.CheckoutCart-container {
+  display: flex;
+  gap: 64px;
+  padding: 80px 0px;
+}
+.CheckoutCart-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 643px;
+  height: 482px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px;
+}
+
+
+.CheckoutCart-container-details {
+  overflow: auto;
+}
+/* Cart summary */
+
+.CheckoutCart-container .cart-summary {
+  flex-grow: 1;
+  border: 1px solid #6c7275;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 476px;
+}
+.cart-summary .cart-summary-head {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-summary h2 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+.cart-summary .radio-container {
+  display: flex;
+  height: 52px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px;
+
+  border: 1px solid #141718;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cart-summary .radio-container .input-radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cart-summary .radio-container input {
+  width: 16px;
+  height: 16px;
+}
+.cart-summary .radio-container span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.cart-summary-footer .totalPrice,
+.cart-summary-footer .subtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-summary-footer .subtotal {
+  border-bottom: 1px solid #eaeaea;
+  padding: 13px 0px;
+}
+.cart-summary-footer .totalPrice {
+  padding: 13px 0px;
+  margin-bottom: 10px;
+}
+.cart-summary-footer .subtotal h3 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+.cart-summary-footer .subtotal span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+.cart-summary-footer .totalPrice span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cart-summary-footer .totalPrice h3 {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+}
+.cart-summary-footer button {
+  width: 100%;
+  height: 52px;
+  background-color: #141718;
+  color: white;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
