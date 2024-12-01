@@ -140,7 +140,16 @@ function ShoppingProducts() {
     );
   }, []);
   if (isLoading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="loading-screen">
+        <div class="loader-square">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    );
   }
 
   if (!productDetails) {
