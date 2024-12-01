@@ -31,6 +31,7 @@ import CheckoutDetails from "./pages/shopping-view/checkout/CheckoutDetails";
 import SearchPage from "./components/shopping-view/SearchPage/SearchPage";
 import PaymentProcessingPage from "./components/shopping-view/PaymentSuccessFullPage";
 import Skeleton from "react-loading-skeleton";
+import PreLoader from "./components/PreLoader";
 
 function App() {
   const { user, isAuthenticated, isLoading } = useSelector(
@@ -61,6 +62,7 @@ function App() {
 
   return (
     <div className="App">
+      <PreLoader />
       <Routes>
         <Route
           path="/"

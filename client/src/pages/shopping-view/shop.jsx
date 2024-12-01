@@ -30,7 +30,9 @@ function createSearchParamsHelper(filterParams, sort) {
 }
 
 function Shop() {
-  const { productList } = useSelector((state) => state.shoppingProducts);
+  const { productList, isLoading } = useSelector(
+    (state) => state.shoppingProducts
+  );
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -85,7 +87,6 @@ function Shop() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  console.log(productList, "productList");
 
   return (
     <div className="shopping-main-container">
